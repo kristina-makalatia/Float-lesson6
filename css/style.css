@@ -1,0 +1,114 @@
+/*Base classes*/
+.container {
+	width: 1088px;
+	margin: 0 auto;
+}
+.f-left {
+	float: left;
+}
+.f-right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+/*Section*/
+.first-block,
+.second-block,
+.third-block,
+.fourth-block
+ {
+	width: 536px;
+	background-color: #F8F8F8;
+}
+.first-block,
+.second-block {
+	margin-bottom: 16px;
+}
+.box-wraper::after {
+	content: ' ';
+	clear: both;
+	display: block;
+}
+.image-block {
+	margin-right: 16px;
+}
+.text-wraper {
+	width: 260px;
+}
+.left-block::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+/*Yellow-Box*/
+.wraper-yellow-box {
+	background-color: yellow;
+	width: 617px;
+}
+.image-yellow-box {
+	float: right;
+	margin-left: 30px;
+}
+
+
+
+/*Position Styles*/
+.div-box {
+	width: 500px;
+	height: 500px;
+	background-color: green;
+	position: relative;
+}
+.child1 {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	z-index: 4;
+}
+.child2 {
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	z-index: 3;
+}
+.test-absolute {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	color: #fff;
+}
+.test-2 {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	color: aqua;
+}
+.test-3 {
+	position: absolute;
+	top: 130px;
+	left:30px;
+	color: yellow;
+}
+
+/*Image block*/
+.text-image {
+	position: absolute;
+	top: 50px;
+	right: 0;
+	color: red;
+}
+.imge-block {
+	position: relative;
+	width: 546px;
+}
+/*.imge-block img {
+	width: 100%;
+}*/
